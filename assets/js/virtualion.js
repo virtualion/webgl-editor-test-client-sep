@@ -173,6 +173,7 @@ body.addEventListener('click', () => {
 // Append Data To Detail Information Virtualion
 window.onload = loadInformationDetail
 function loadInformationDetail () {
+/*
   const location = (new URL(document.location));
   const searchLocation = location.search
 
@@ -197,6 +198,7 @@ function loadInformationDetail () {
       selectedData.verified ? isVerified.style.display = 'flex' : isVerified.style.display = 'none'
     })
     .catch(error => console.log(error));
+*/
 }
 loadInformationDetail()
 
